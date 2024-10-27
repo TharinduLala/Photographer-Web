@@ -1,0 +1,54 @@
+.contact-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    padding-bottom: 0;
+    background-color: #ffca7a1a;
+}
+.contact-info{
+    text-align: center;
+    font-size: x-large;
+}
+.contact-info, .inquiry-form {
+    width: 45%;
+}
+.contact-info a {
+    text-decoration: none;
+    color: #593d3b;
+} 
+
+.contact-info .social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info .social-media li {
+    display: inline;
+    margin-right: 1em;
+}
+
+.inquiry-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inquiry-form label {
+    margin-top: 1em;
+}
+
+.inquiry-form input, .inquiry-form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+    border: 1px solid #593d3b ;
+}
+
+.inquiry-form input[type="submit"] {
+    font-size: medium;
+    padding: 0.5em;
+    margin-top: 1em;
+    background-color: #593d3b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

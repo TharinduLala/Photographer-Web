@@ -1,0 +1,64 @@
+.slider {
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 2.5%;
+  margin-right: 2.5%;
+  border-radius: 5%;
+  width: 25dvw;
+  height: auto;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+.fade-img {
+  width: 100%;
+}
+.fade-img > img {
+  width: 100%;
+  border-radius: 5%;
+  height: auto;
+}
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#welcomeHeading {
+  position: absolute;
+  top: 25%;
+  margin-left: 5%;
+  font-size: xxx-large;
+  text-align: center;
+}
+#tagHeading {
+  position: absolute;
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
+
+.social {
+  top: 60%;
+  left: 18%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social > ul {
+  list-style: none;
+  display: flex;
+}
+
+.social > ul > li > a {
+  text-decoration: none;
+  padding: 10px 15px;
+}

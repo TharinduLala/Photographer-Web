@@ -1,0 +1,48 @@
+.pricing-section {
+    padding: 2em;
+    text-align: center;
+    background-color: #ffca7a1a;
+}
+
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.package {
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 1em;
+    background-color: white;
+    text-align: center;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+.package:hover {
+    transform: scale(1.05);
+}
+
+.package i {
+    font-size: 2em;
+    color: #593d3b;
+}
+
+.package h3 {
+    margin: 0.5em 0;
+}
+
+.package p {
+    margin: 0.5em 0;
+}
+
+.package .price {
+    font-weight: bold;
+    background-color: #593d3b;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 10px;
+}

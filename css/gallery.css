@@ -1,0 +1,19 @@
+.gallery-section {
+    padding: 2em;
+    text-align: center;
+    background-color: #ffca7a1a;
+}
+
+.gallery {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.gallery-item {
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}

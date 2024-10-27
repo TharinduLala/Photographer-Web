@@ -1,0 +1,70 @@
+#image{
+    position: absolute;
+    left: 0;
+    bottom: 5;
+    width: fit-content;
+    
+}
+#image>img{
+    width: 25vw;
+    height: auto;
+}
+#im{
+    width: fit-content;
+    position: absolute;
+
+   right: 35%;
+
+    margin-top: 5vh;
+}
+#aboutPara{
+    text-align: center;
+    font-weight: normal;
+    font-size: large    ;
+    color: #593d3b;
+    position: absolute;
+   right: 0;
+   margin-right: 2%;
+    margin-top: 15vh;
+}
+#provide{
+    width: fit-content;
+    position: absolute;
+   right: 35%;
+    margin-top: 40vh;
+}
+
+#provide-container{
+    position: absolute;
+    bottom: 8%;
+    right: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-image: "../php/";
+
+}
+#provide-container>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 12vw;
+    transition: transform 0.3s;
+}
+#provide-container>div>h5{
+    padding: 0;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#provide-container>div>img{
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 10px 10px;
+}
+#provide-container>div:hover{
+    transform: scale(1.3);
+}
